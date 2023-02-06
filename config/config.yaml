@@ -1,0 +1,15 @@
+data:
+  pipeline: [
+        {
+          '$lookup': {
+            'from': 'products', 
+            'localField': 'productId', 
+            'foreignField': 'productId', 
+            'as': 'data'
+          }
+        }, {
+          '$unwind': {
+            'path': '$data'
+          }
+        }
+      ]

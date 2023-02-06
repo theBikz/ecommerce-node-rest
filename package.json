@@ -1,0 +1,21 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "description": "Ecommerce Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Bipin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "js-yaml": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
